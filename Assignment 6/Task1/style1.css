@@ -1,0 +1,96 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{
+	background-image: url("images/img2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+}
+div.logo{
+	padding-top:75px;
+	position: relative;
+	margin: 0px 45%;
+}
+div.logo img{
+	width: 100px;
+	height: 100px;
+}
+div.form{
+	box-shadow:1px 2px 2px 1px #918aad;
+	display: block;
+	margin:0 auto;
+	width: 450px;
+	height:500px;
+	padding: 40px 10px;
+}
+.form h3{
+  color: black;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.form p{
+  color: black;
+  margin-bottom: 20px;
+  font-size:12px;
+}
+.form input{
+	padding: 20px;
+	margin-bottom:20px;
+	border: none;
+	height:25px;
+	border-radius: 2px;
+	background-color: #e9e6f7;
+	width: 100%;
+}
+.login{
+	margin-bottom:10px;
+	padding:6px 25px;
+	border-radius:9px;
+	background-color: #2e2942;
+	font-size:13px;
+	text-decoration: none;
+	color:white;
+	margin-bottom: 10px;
+}
+div.form .forgot{
+	color:black;
+	text-decoration: none;
+	padding:10px;
+}
+div.form h4{
+	font-size: 18px;
+	margin:20px 10px; 
+	font-weight: normal;
+}
+i{
+	padding-right:10px;
+	height:20px;
+	width: 20px;
+	border-radius:50%;
+	margin-left:20px;
+}
+span{
+	font-weight: bold;
+}
+.fa-facebook{
+ color:blue;
+}
+.fa-google{
+ color:red;
+}
+.fa-linkedin{
+ color:#0d8be5;
+ font-size: 20px;
+}
+.end{
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+	font-size:20px;
+	position: relative;
+	top:50px;
+}
